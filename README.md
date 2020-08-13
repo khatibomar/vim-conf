@@ -53,6 +53,25 @@ then press ESC on your keyboard then type :PlugInstall and press enter <br>
 > TIP : If a Plugin failed during installation press SHIFT+R to retry
 
 ***
+
+# Themes
+this vim configuation came with Dracula as default theme <br>
+But I have couple of other themes installed <br>
+remove the following lines from .vimrc and replace them with what provided in docs of each theme
+```vim
+" Theme section
+        syntax          enable
+        colorscheme     dracula
+" end of them section
+```
+> TIP it's better to keep the comments 
+
+| Name | Docs link |
+| --- | --- |
+| Dracula | [github](https://github.com/dracula/dracula-theme) |
+| Solarized | [github](https://github.com/altercation/vim-colors-solarized) |
+
+***
 # TODO
 - [ ] docs 
 - [X] better readme
