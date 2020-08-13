@@ -1,4 +1,4 @@
-<div style="text-align:center" ><img width="200" height="220" src="images/logo.png" /></div>
+<p align="center" ><img width="300" height="200" src="images/logo.png" /></div>
 
 # OmarKh-vim
 Hello , this is my personal vim setup , It will be updated frequently based on my needs.
