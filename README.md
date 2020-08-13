@@ -49,6 +49,7 @@ vim
 ```
 then press ESC on your keyboard then type :PlugInstall and press enter <br>
 > TIP : It's normal to get errors first time we open vim because plugins are not Installed yet.
+
 > TIP : If a Plugin failed during installation press SHIFT+R to retry
 
 ***
