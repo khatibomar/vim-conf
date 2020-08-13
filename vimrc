@@ -40,6 +40,7 @@ call plug#begin('~/.vim/plugged')
 	
 	" themes
 	Plug 'dracula/vim', { 'as': 'dracula' }
+	Plug 'altercation/vim-colors-solarized'
 	" end themes
 	
 	" Initialize plugin system
