@@ -68,6 +68,7 @@ remove the following lines from .vimrc and replace them with what provided in do
 
 | Name | Docs link |
 | --- | --- |
+| Dracula | [github](https://github.com/dracula/dracula-theme) |
 | Solarized | [github](https://github.com/altercation/vim-colors-solarized) |
 
 ***
