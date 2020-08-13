@@ -1,3 +1,12 @@
+"*******************************************************"
+"							"
+"	maintainer	: OmarElKhatibCS		"
+"	email		: elkhatibomar@outlook.com	"
+"	linkedin	: linkedin.com/in/elkhatibomar	"
+"	dev.to		: dev.to/elkhatibomar		"	
+"							"
+"*******************************************************" 
+
 "---------------"
 " Plugins Calls "
 "---------------"
