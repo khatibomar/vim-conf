@@ -5,6 +5,19 @@ Hello , this is my personal vim setup , It will be updated frequently based on m
 I will make sure to document every Plugin I add with example of usage case.
 ***
 # Installation
+### neovim , vim , gvim
+For sure we need vim or neovim installed <br>
+in order to enable clipboard copy-pasting we need vim-gtk or vim-gtk3 <br> <br>
+*Ubuntu*
+```bash
+apt-get install vim vim-gtk3 neovim 
+```
+*Arch Linux*
+```bash
+pacman -S vim vim-gtk3 neovim 
+```
+> TIP : if your not a root user you need to use sudo
+
 ### Install OmarKh-vim
 The Installation is aimed only for Linux users. <br>
 The Installer will backup your old .vimrc file into .vimrc.back
@@ -29,18 +42,14 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ```
 -- [Source](https://github.com/junegunn/vim-plug)
 
-### gvim
-in order to enable clipboard copy-pasting we need vim-gtk or vim-gtk3 <br> <br>
-*Ubuntu*
+### Install Plugins
+After the installation of the Plugin Manager we need to install Plugins
 ```bash
-apt-get install vim-gtk3
+vim
 ```
-*Arch Linux*
-```bash
-pacman -S vim-gtk3
-```
-> TIP : if your not a root user you need to use sudo
-
+then press ESC on your keyboard then type :PlugInstall and press enter <br>
+> TIP : It's normal to get errors first time we open vim because plugins are not Installed yet.
+> TIP : If a Plugin failed during installation press SHIFT+R to retry
 
 ***
 # TODO
