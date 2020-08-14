@@ -29,7 +29,7 @@
 		Plug 'tpope/vim-commentary'
 		
 		" easly with go using :GoXX (XX is command like :GoBuild)
-		Plug 'fatih/vim-go'
+		Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 		
 		" Important! used to align text
 		" http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
