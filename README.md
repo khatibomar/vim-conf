@@ -48,7 +48,7 @@ After the installation of the Plugin Manager we need to install Plugins
 vim +PlugInstall
 ```
 or Method 2 : you can launch vim then press ESC on your keyboard then type :PlugInstall and press enter <br>
-> TIP : It's normal if you useed Method 2 to get errors first time we open vim because plugins are not Installed yet.
+> TIP : It's normal if you used Method 2 to get errors first time we open vim because plugins are not Installed yet.
 
 > TIP : If a Plugin failed during installation press SHIFT+R to retry
 
