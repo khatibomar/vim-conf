@@ -45,10 +45,10 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ### Install Plugins
 After the installation of the Plugin Manager we need to install Plugins
 ```bash
-vim
+vim +PlugInstall
 ```
-then press ESC on your keyboard then type :PlugInstall and press enter <br>
-> TIP : It's normal to get errors first time we open vim because plugins are not Installed yet.
+or Method 2 : you can launch vim then press ESC on your keyboard then type :PlugInstall and press enter <br>
+> TIP : It's normal if you useed Method 2 to get errors first time we open vim because plugins are not Installed yet.
 
 > TIP : If a Plugin failed during installation press SHIFT+R to retry
 
