@@ -16,6 +16,10 @@ apt-get install vim vim-gtk3 neovim
 ```bash
 pacman -S vim vim-gtk3 neovim 
 ```
+Also if you don't have python install it then install python support inside vim because some plugins need it <br>
+```bash
+pip install neovim vim
+```
 > TIP : if your not a root user you need to use sudo
 
 ### Install OmarKh-vim
@@ -71,6 +75,14 @@ remove the following lines from .vimrc and replace them with what provided in do
 | Dracula | [github](https://github.com/dracula/dracula-theme) |
 | Solarized | [github](https://github.com/altercation/vim-colors-solarized) |
 
+***
+
+# Docs
+## General
+coming very very soon...
+
+## Go
+coming very very soon...
 ***
 # TODO
 - [ ] docs 
