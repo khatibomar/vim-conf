@@ -62,11 +62,15 @@
 "-----------------"
 " general setting "
 "-----------------"
-
-	" change leader to ,
-		:let mapleader 				= ","
-
-
+	:let mapleader="," " change leader to ,
+	set relativenumber " show numbers on side relativly to the live
+	set cursorline " highlight line where cursor is placed
+	set tabstop=4 " For tab characters that appear 4-spaces-wide
+	
+	" Copy/paste from/to clipboard (require : vim-gtk3)
+		vnoremap	<C-c> "+y
+		map		<C-p> "+P
+	
 "-----------------"
 " Plugins setting "
 "-----------------"
@@ -76,12 +80,7 @@
 		let 	g:user_emmet_mode		= 'n'
 		let 	g:user_emmet_leader_key		= ',' " to use emmet pres ,, in normal mode
 		autocmd FileType html,css EmmetInstall
-	
-	" Copy/paste from/to clipboard (require : vim-gtk3)
-		vnoremap	<C-c> "+y
-		map		<C-p> "+P
-	
+
 	" Theme section
 		syntax		enable
 		colorscheme 	dracula
-	" end of theme section

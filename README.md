@@ -78,11 +78,14 @@ remove the following lines from .vimrc and replace them with what provided in do
 ***
 
 # Docs
-## General
+## General maps
 coming very very soon...
 
 ## Go
-coming very very soon...
+first we need go installed , go to [website](https://golang.org/doc/install) and follow instructions <br>
+after successfully setup go , open vim and press ESC and type :GoInsallBinaries <br>
+
+more about go plugin with maps soon...
 ***
 # TODO
 - [ ] docs 
