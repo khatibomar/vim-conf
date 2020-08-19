@@ -71,9 +71,31 @@
 		vnoremap	<C-c> "+y
 		map		<C-p> "+P
 	
+	" Sets how many lines of history VIM has to remember
+		set history=500
+	
+		
+	" Set to auto read when a file is changed from the outside
+		set autoread
+		au FocusGained,BufEnter * checktime
+	
+	" With a map leader it's possible to do extra key combinations
+	" like <leader>w saves the current file
+		let mapleader = ","
+	
+	" Fast saving
+		nmap <leader>w :w!<cr>
+	
+	" :W sudo saves the file 
+	" (useful for handling the permission-denied error)
+		command! W execute 'w !sudo tee % > /dev/null' <bar> edit!	
+	
 "-----------------"
 " Plugins setting "
 "-----------------"
+	" Enable filetype plugins
+		filetype plugin on
+		filetype indent on
 
 	" emmet configurations only inside html,css
 		let 	g:user_emmet_install_global 	= 0

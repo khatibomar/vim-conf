@@ -87,6 +87,8 @@ after successfully setup go , open vim and press ESC and type :GoInsallBinaries 
 
 more about go plugin with maps soon...
 ***
+# Credits
+This project is heavly depended on [awesome vimrc](https://github.com/amix/vimrc/) by [amix](https://github.com/amix/)
 # TODO
 - [ ] docs 
 - [X] better readme
