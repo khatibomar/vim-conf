@@ -90,6 +90,69 @@
 	" (useful for handling the permission-denied error)
 		command! W execute 'w !sudo tee % > /dev/null' <bar> edit!	
 	
+	" Turn on the Wild menu , like when I type and press tab a menu will
+	" appear example :echo h<TAB> will show a menu of suggestions
+		set wildmenu
+
+	" Ignore compiled files
+	" @Todo Add GO
+		set wildignore=*.o,*~,*.pyc
+		if has("win16") || has("win32")
+	    	set wildignore+=.git\*,.hg\*,.svn\*
+		else
+	    	set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store
+		endif	
+	
+	" Don't redraw while executing macros (good performance config)
+		set lazyredraw 
+
+	" For regular expressions turn magic on
+		set magic
+	" No annoying sound on errors
+		set noerrorbells
+		set novisualbell
+		set t_vb=
+		set tm=500
+	" Turn backup off, since most stuff is in SVN, git etc. anyway...
+		set nobackup
+		set nowb
+		set noswapfile
+	set ai "Auto indent
+	set si "Smart indent
+	set wrap "Wrap lines
+"-----------------"
+" text editing    "
+"-----------------"
+	" Move a line of text using ALT+[jk] 
+		nmap <M-j> mz:m+<cr>`z
+		nmap <M-k> mz:m-2<cr>`z
+		vmap <M-j> :m'>+<cr>`<my`>mzgv`yo`z
+		vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z	
+	" Delete trailing white space on save, useful for some filetypes ;)
+		fun! CleanExtraSpaces()
+		    let save_cursor = getpos(".")
+		    let old_query = getreg('/')
+		    silent! %s/\s\+$//e
+		    call setpos('.', save_cursor)
+		    call setreg('/', old_query)
+		endfun
+		
+		if has("autocmd")
+		    autocmd BufWritePre *.go,*.rb,*.c,*.cpp,*.txt,*.js,*.jsx,*.py,*.sh :call CleanExtraSpaces()
+		endif
+"-----------------"
+" spell checking  "
+"-----------------"
+	
+	" Pressing ,ss will toggle and untoggle spell checking
+		map <leader>ss :setlocal spell!<cr>
+	
+	" Shortcuts using <leader>
+		map <leader>sn ]s
+		map <leader>sp [s
+		map <leader>sa zg
+		map <leader>s? z=
+
 "-----------------"
 " Plugins setting "
 "-----------------"
