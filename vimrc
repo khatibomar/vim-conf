@@ -68,7 +68,8 @@
 	set relativenumber " show numbers on side relativly to the live
 	set cursorline " highlight line where cursor is placed
 	set tabstop=4 " For tab characters that appear 4-spaces-wide
-	
+    set shiftwidth=4 " when you press tab it will occupy 4 spaces
+
 	" Copy/paste from/to clipboard (require : vim-gtk3)
 		vnoremap	<C-c> "+y
 		map		<C-p> "+P
