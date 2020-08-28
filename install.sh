@@ -1,8 +1,8 @@
 cat << EOF
- __                             
-/  \ _  _  _|_/|_  __ \  /||\/| 
-\__/|||(_|| | \| )     \/ ||  | 
-                              
+ __
+/  \ _  _  _|_/|_  __ \  /||\/|
+\__/|||(_|| | \| )     \/ ||  |
+
 EOF
 
 echo "[+] INSTALLATION START [+]"
@@ -15,4 +15,5 @@ else
 fi
 
 cp vimrc $HOME/.vimrc
+cp init.vim $HOME/.config/nvim/init.vim
 echo "[+] INSTALLATION DONE [+]"
