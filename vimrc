@@ -173,4 +173,4 @@
 
 	" Theme section
 		syntax		enable
-		colorscheme 	dracula
+		colorscheme 	murphy
