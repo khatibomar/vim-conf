@@ -20,8 +20,13 @@ Also if you don't have python install it then install python support inside vim 
 ```bash
 pip install neovim vim
 ```
+> HINT : make sure that pip refer to python3 else try pip3 instead
+
 > TIP : if your not a root user you need to use sudo
-> to migrate vim to neovim check neovim help page
+
+> TIP : to migrate vim to neovim check neovim help page
+
+> TIP : make sure you use last neovim for better experience
 
 ### Install OmarKh-vim
 The Installation is aimed only for Linux users. <br>
@@ -60,16 +65,17 @@ or Method 2 : you can launch vim then press ESC on your keyboard then type :Plug
 ***
 
 # Themes
-this vim configuation came with Dracula as default theme <br>
+this vim configuation came with murphy as default theme <br>
 But I have couple of other themes installed <br>
 remove the following lines from .vimrc and replace them with what provided in docs of each theme
 ```vim
 " Theme section
         syntax          enable
-        colorscheme     dracula
-" end of them section
+        colorscheme     murphy
 ```
 > TIP it's better to keep the comments 
+
+externally installed themes :
 
 | Name | Docs link |
 | --- | --- |
