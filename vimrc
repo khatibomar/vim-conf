@@ -15,7 +15,9 @@
 	" - Avoid using standard Vim directory names like 'plugin'
 	call plug#begin('~/.vim/plugged')
 		" Make sure you use single quotes
-		
+	
+		"smart intellise for vim - Use release branch (recommend)
+		Plug 'neoclide/coc.nvim', {'branch': 'release'}
 		" for git usage :Git
 		Plug 'tpope/vim-fugitive'
 		
@@ -140,6 +142,9 @@
 		if has("autocmd")
 		    autocmd BufWritePre *.go,*.rb,*.c,*.cpp,*.txt,*.js,*.jsx,*.py,*.sh :call CleanExtraSpaces()
 		endif
+		
+		"toggle neerd tree
+		nmap <F6> :NERDTreeToggle<CR>
 "-----------------"
 " spell checking  "
 "-----------------"

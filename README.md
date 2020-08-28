@@ -21,6 +21,7 @@ Also if you don't have python install it then install python support inside vim 
 pip install neovim vim
 ```
 > TIP : if your not a root user you need to use sudo
+> to migrate vim to neovim check neovim help page
 
 ### Install OmarKh-vim
 The Installation is aimed only for Linux users. <br>
