@@ -127,6 +127,7 @@
 	set ai "Auto indent
 	set si "Smart indent
 	set wrap "Wrap lines
+	
 "-----------------"
 " text editing    "
 "-----------------"
@@ -150,6 +151,7 @@
 		
 		"toggle neerd tree
 		nmap <F6> :NERDTreeToggle<CR>
+
 "-----------------"
 " spell checking  "
 "-----------------"
@@ -166,6 +168,7 @@
 "-----------------"
 " Plugins setting "
 "-----------------"
+
 	" Enable filetype plugins
 		filetype plugin on
 		filetype indent on
@@ -179,3 +182,4 @@
 	" Theme section
 		syntax		enable
 		colorscheme 	murphy
+		let g:solarized_termcolors=256 " used for solorized theme

@@ -88,12 +88,13 @@ externally installed themes :
 
 # Docs
 ## General maps
-coming very very soon...
+press F6 to toggle NerdTree , and to open a file In new Vim tab hover over file and press t <br>
+more coming very very soon...
 
 ## Go
 first we need go installed , go to [website](https://golang.org/doc/install) and follow instructions <br>
 after successfully setup go , open vim and press ESC and type :GoInsallBinaries <br>
-
+watch this [video](https://www.youtube.com/watch?v=7BqJ8dzygtU&t=2885s) for more informations to get most out of vim-go :) <br>
 more about go plugin with maps soon...
 ***
 # Credits
