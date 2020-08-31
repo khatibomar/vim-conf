@@ -53,6 +53,9 @@
 		" html emmet
 		Plug 'mattn/emmet-vim'
 		
+		" Icons (require icon font check docs)
+		Plug 'ryanoasis/vim-devicons'
+
 		" themes
 		Plug 'dracula/vim', { 'as': 'dracula' }
 		Plug 'altercation/vim-colors-solarized'

@@ -38,6 +38,8 @@ sh install.sh
 ```
 >TIP : to auto remove Installation files clone it into /tmp folder , 
 > or you can run ``` cd .. && rm -rf OmarKh-vim ```
+
+to have icons enabled you need a font such as NerdFont or FiraCode check this [link](https://github.com/ryanoasis/vim-devicons#installation)  <br>
 ### Install Plugin Manager
 Next we need to install the plug-vim
 for Vim 8.xx :
@@ -65,7 +67,7 @@ or Method 2 : you can launch vim then press ESC on your keyboard then type :Plug
 ***
 
 # Themes
-this vim configuation came with murphy as default theme <br>
+this vim configuation came with a default theme <br>
 But I have couple of other themes installed <br>
 remove the following lines from .vimrc and replace them with what provided in docs of each theme
 ```vim
