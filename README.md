@@ -87,8 +87,40 @@ externally installed themes :
 ***
 
 # Docs
-## General maps
-press F6 to toggle NerdTree , and to open a file In new Vim tab hover over file and press t <br>
+
+## Keys
+common used vim keys :
+| key | job | mode |
+| --- | --- | --- |
+| k | move cursor up | normal |
+| j | move cursor down | normal |
+| h | move cursor left | normal |
+| l | move cursor right | normal |
+| w | move cursor by word forward | normal |
+| b | move cursor by word backward | normal |
+| u | undo changes | normal |
+| Ctrl-r | redo changes | normal |
+| x | delete letter on cursor | normal |
+| ^ or 0 | move cursor to beggining of line | normal |
+| $ | move cursor to end of line | normal |
+| gg | move cursor to first line | normal |
+| G | move cursor to last line | normal |
+| H | move cursor to top of the screen | normal |
+| M | move cursor to middle of screen | normal |
+| L | move cursor to end of the screen | normal |
+| zt | put current line on top of screen | normal |
+| zz | put current line on center of screen | normal |
+| zb | put current line on center of screen | normal |
+| ,d | duplicate current line | normal |
+| Ctrl-y | move screen up without moving cursor | normal |
+| Ctrl-e | move screen down without moving cursor | normal |
+| ALT+K | move line up | normal |
+| ALT+J | move line down | normal |
+| Ctrl-d | move screen down without moving cursor | normal |
+| cw | change word | normal |
+| ci`key` | change inside key example `ci"` `ci{` | normal |
+| Ctrl-x Ctrl-o | trigger auto completion | insert |
+
 more coming very very soon...
 
 ## Go
