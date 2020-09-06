@@ -120,6 +120,7 @@ common used vim keys :
 | cw | change word | normal |
 | ci`key` | change inside key example `ci"` `ci{` | normal |
 | Ctrl-x Ctrl-o | trigger auto completion | insert |
+| % | go to opposite pair of `(` in `(sd)` | insert |
 
 more coming very very soon...
 
