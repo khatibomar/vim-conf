@@ -71,7 +71,7 @@
 	set relativenumber " show numbers on side relativly to the live
 	set cursorline " highlight line where cursor is placed
 	set tabstop=4 " For tab characters that appear 4-spaces-wide
-    	set shiftwidth=4 " when you press tab it will occupy 4 spaces
+    set shiftwidth=4 " when you press tab it will occupy 4 spaces
 	set encoding=UTF-8 " required for DevIcons Plugin
 
 	" Copy/paste from/to clipboard (require : vim-gtk3)
@@ -151,6 +151,8 @@
 		
 		"toggle neerd tree
 		nmap <F6> :NERDTreeToggle<CR>
+
+	nmap <leader>d <Esc>Yp " duplicate last line
 
 "-----------------"
 " spell checking  "
