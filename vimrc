@@ -59,7 +59,7 @@
 		" themes
 		Plug 'dracula/vim', { 'as': 'dracula' }
 		Plug 'altercation/vim-colors-solarized'
-		Plug 'jaimebuelta/jaime-vim-colorscheme'
+		Plug 'juanpabloaj/vim-pixelmuerto'
 		" end themes
 		
 		" Initialize plugin system
@@ -184,7 +184,7 @@
 
 	" Theme section
 		syntax		enable
-		colorscheme 	jaime
+		colorscheme pixelmuerto
 		let g:solarized_termcolors=256 " used for solorized theme
 
 " -------------------------------------------------------------------------------------------------
