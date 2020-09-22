@@ -154,7 +154,10 @@
 		nmap <F6> :NERDTreeToggle<CR>
 
 	nmap <leader>d <Esc>Yp " duplicate last line
-
+	" mouse setting
+	set mouse = a
+	map <ScrollWheelUp> <C-Y>
+	map <ScrollWheelDown> <C-E>
 "-----------------"
 " spell checking  "
 "-----------------"
