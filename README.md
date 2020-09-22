@@ -73,7 +73,7 @@ remove the following lines from .vimrc and replace them with what provided in do
 ```vim
 " Theme section
         syntax          enable
-        colorscheme     murphy
+        colorscheme     pixelmuerto
 ```
 > TIP it's better to keep the comments 
 
@@ -83,6 +83,8 @@ externally installed themes :
 | --- | --- |
 | Dracula | [github](https://github.com/dracula/dracula-theme) |
 | Solarized | [github](https://github.com/altercation/vim-colors-solarized) |
+| jaime | [github](https://github.com/jaimebuelta/jaime-vim-colorscheme) |
+| pixelmuerto | [github](https://github.com/pixelmuerto/vim-pixelmuerto) |
 
 ***
 
@@ -129,6 +131,12 @@ first we need go installed , go to [website](https://golang.org/doc/install) and
 after successfully setup go , open vim and press ESC and type :GoInsallBinaries <br>
 watch this [video](https://www.youtube.com/watch?v=7BqJ8dzygtU&t=2885s) for more informations to get most out of vim-go :) <br>
 more about go plugin with maps soon...
+**Go Keys**
+| key | job | mode |
+| --- | --- | --- |
+| gd | go to definition | normal |
+| go | go back from definition | normal |
+
 ***
 # Credits
 This project is heavly depended on [awesome vimrc](https://github.com/amix/vimrc/) by [amix](https://github.com/amix/)
