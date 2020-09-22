@@ -155,7 +155,7 @@
 
 	nmap <leader>d <Esc>Yp " duplicate last line
 	" mouse setting
-	set mouse = a
+	set mouse=a
 	map <ScrollWheelUp> <C-Y>
 	map <ScrollWheelDown> <C-E>
 "-----------------"
