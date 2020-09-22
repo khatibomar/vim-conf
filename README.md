@@ -83,7 +83,6 @@ externally installed themes :
 | --- | --- |
 | Dracula | [github](https://github.com/dracula/dracula-theme) |
 | Solarized | [github](https://github.com/altercation/vim-colors-solarized) |
-| jaime | [github](https://github.com/jaimebuelta/jaime-vim-colorscheme) |
 | pixelmuerto | [github](https://github.com/pixelmuerto/vim-pixelmuerto) |
 
 ***
