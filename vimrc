@@ -128,7 +128,12 @@
 	set ai "Auto indent
 	set si "Smart indent
 	set wrap "Wrap lines
-	
+
+	" Nerdtree configuration goes here
+		" open Nerdtree
+		nnoremap <Leader>nt :NERDTreeToggle<Enter>
+		let NERDTreeQuitOnOpen = 1
+
 "-----------------"
 " text editing    "
 "-----------------"
@@ -158,6 +163,7 @@
 	set mouse=a
 	map <ScrollWheelUp> <C-Y>
 	map <ScrollWheelDown> <C-E>
+
 "-----------------"
 " spell checking  "
 "-----------------"
