@@ -134,7 +134,7 @@ more about go plugin with maps soon...
 | key | job | mode |
 | --- | --- | --- |
 | gd | go to definition | normal |
-| go | go back from definition | normal |
+| ctrl+o | go back from definition | normal |
 
 ***
 # Credits
