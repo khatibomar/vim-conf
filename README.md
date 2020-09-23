@@ -88,6 +88,12 @@ externally installed themes :
 ***
 
 # Docs
+## usefull commands
+|TIP|usage|
+|---| --- |
+| press t in Nerdtree | open file in new tab |
+| :tabn | move to next tab |
+| :tabp | move to previous tab |
 
 ## Keys
 common used vim keys :

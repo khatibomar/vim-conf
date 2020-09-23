@@ -150,10 +150,8 @@
 		    autocmd BufWritePre *.go,*.rb,*.c,*.cpp,*.txt,*.js,*.jsx,*.py,*.sh :call CleanExtraSpaces()
 		endif
 		
-		"toggle neerd tree
-		nmap <F6> :NERDTreeToggle<CR>
-
 	nmap <leader>d <Esc>Yp " duplicate last line
+	
 	" mouse setting
 	set mouse=a
 	map <ScrollWheelUp> <C-Y>
