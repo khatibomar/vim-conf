@@ -122,7 +122,7 @@ common used vim keys :
 | ci`key` | change inside key example `ci"` `ci{` | normal |
 | Ctrl-x Ctrl-o | trigger auto completion | insert |
 | % | go to opposite pair of `(` in `(sd)` | normal |
-
+| ,nt | toggle nerdtree | normal |
 more coming very very soon...
 
 ## Go
