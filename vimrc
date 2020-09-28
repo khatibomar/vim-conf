@@ -156,6 +156,9 @@
 	set mouse=a
 	map <ScrollWheelUp> <C-Y>
 	map <ScrollWheelDown> <C-E>
+	
+	" force vim to syntax highlight gohtml as html
+	au BufReadPost *.ezt set syntax=html
 
 "-----------------"
 " spell checking  "
