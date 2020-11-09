@@ -106,6 +106,7 @@ common used vim keys :
 | w | move cursor by word forward | normal |
 | b | move cursor by word backward | normal |
 | u | undo changes | normal |
+| > or < | (un)tab a block of code | visual block |
 | Ctrl-r | redo changes | normal |
 | x | delete letter on cursor | normal |
 | ^ or 0 | move cursor to beggining of line | normal |
