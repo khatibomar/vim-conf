@@ -128,6 +128,13 @@
 	set ai "Auto indent
 	set si "Smart indent
 	set wrap "Wrap lines
+	
+	" easier way to move between splits
+	" more infos can be found here https://thoughtbot.com/blog/vim-splits-move-faster-and-more-naturally#resizing-splits
+	nnoremap <C-J> <C-W><C-J>
+	nnoremap <C-K> <C-W><C-K>
+	nnoremap <C-L> <C-W><C-L>
+	nnoremap <C-H> <C-W><C-H>
 
 "-----------------"
 " text editing    "

@@ -130,6 +130,9 @@ common used vim keys :
 | Ctrl-x Ctrl-o | trigger auto completion | insert |
 | % | go to opposite pair of `(` in `(sd)` | normal |
 | ,nt | toggle nerdtree | normal |
+| CTRL+(h/j/k/l)| move between splits | normal |
+| CTRL+p | open ctrlp plugin for fuzzy finding | normal |
+| CTRL+p+v | open in vsplit of the file the cursor on | normal |
 more coming very very soon...
 
 ## Go
