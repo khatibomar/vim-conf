@@ -96,7 +96,9 @@
 	
 	" :W sudo saves the file 
 	" (useful for handling the permission-denied error)
-		command! W execute 'w !sudo tee % > /dev/null' <bar> edit!	
+	" commented because it do some trouble on my machine
+	" like removing previous code because I have some sudo error
+	"	command! W execute 'w !sudo tee % > /dev/null' <bar> edit!	
 	
 	" Turn on the Wild menu , like when I type and press tab a menu will
 	" appear example :echo h<TAB> will show a menu of suggestions
