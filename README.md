@@ -146,6 +146,14 @@ more about go plugin with maps soon...
 | gd | go to definition | normal |
 | ctrl+o | go back from definition | normal |
 
+**HTML Keys**
+| key | job | mode |
+| --- | --- | --- |
+| cit | change what is between the tags | normal |
+| yit | copy what is between the tags | normal |
+| dit | delete what is between the tags | normal |
+| vit | visual select what is between the tags | normal |
+
 ***
 # Credits
 This project is heavly depended on [awesome vimrc](https://github.com/amix/vimrc/) by [amix](https://github.com/amix/)
