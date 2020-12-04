@@ -134,7 +134,13 @@ common used vim keys :
 | CTRL+p | open ctrlp plugin for fuzzy finding | normal |
 | CTRL+p+v | open in vsplit of the file the cursor on | normal |
 more coming very very soon...
-
+## Coc
+to read more about coc please go [here](https://github.com/neoclide/coc.nvim) <br>
+basically the configuration came with coc release branch , you can use the master branch insted and build <br>
+some coc plugins need newer coc versions so to update coc press `ESC` then type `:PlugUpdate` <br>
+this will update all your plugins including coc <br>
+then to install coc autocompletion you need to install it's plugin , I mainly install js,ts,css support <br>
+so to do so press `ESC` then type `:CocInstall coc-tsserver coc-html coc-html` this will Install support for all what we mention above.
 ## Go
 first we need go installed , go to [website](https://golang.org/doc/install) and follow instructions <br>
 after successfully setup go , open vim and press ESC and type :GoInsallBinaries <br>
