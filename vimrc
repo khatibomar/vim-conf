@@ -276,3 +276,47 @@
 	" disable vim-go :GoDef short cut (gd)
 	" this is handled by LanguageClient [LC]
 	let g:go_def_mapping_enabled = 0
+
+" GO settings
+
+	" disable all linters as that is taken care of by coc.nvim
+	let g:go_diagnostics_enabled = 0
+	let g:go_metalinter_enabled = []
+	" don't jump to errors after metalinter is invoked
+	let g:go_jump_to_error = 0
+	" run go imports on file save
+	let g:go_fmt_command = "goimports"
+	" automatically highlight variable your cursor is on
+	let g:go_auto_sameids = 0
+
+	let g:go_highlight_types = 1
+	let g:go_highlight_fields = 1
+	let g:go_highlight_functions = 1
+	let g:go_highlight_function_calls = 1
+	let g:go_highlight_operators = 1
+	let g:go_highlight_extra_types = 1
+	let g:go_highlight_build_constraints = 1
+	let g:go_highlight_generate_tags = 1
+
+	" running all the tests in the current file to <leader>-t
+	autocmd BufEnter *.go nmap <leader>t  <Plug>(go-test)
+	" mapped <leader> + tt to run the current test function only
+	autocmd BufEnter *.go nmap <leader>tt <Plug>(go-test-func)
+	" <leader> + c to toggle the coverage profile for the current file
+	autocmd BufEnter *.go nmap <leader>c  <Plug>(go-coverage-toggle)
+
+	" Show the function signature for a given routine with <leader> + i:
+	autocmd BufEnter *.go nmap <leader>i  <Plug>(go-info)
+	" Show the interfaces a type implements with <leader> + ii:
+	autocmd BufEnter *.go nmap <leader>ii  <Plug>(go-implements)
+	" Describe the definition of a given type with <leader> + ci:
+	autocmd BufEnter *.go nmap <leader>ci  <Plug>(go-describe)
+	" See the callers of a given function with <leader> + cc:
+	autocmd BufEnter *.go nmap <leader>cc  <Plug>(go-callers)
+	" Find all references of a given type/function in the codebase with <leader> + cr:
+	nmap <leader>cr <Plug>(coc-references)
+	" Go to definition/Go back with Ctrl+d and Ctrl+a:
+	nmap <C-a> <C-o>
+	nmap <C-d> <Plug>(coc-definition)
+	" renaming the symbol your cursor is on with <leader> + r:
+	nmap <leader>r <Plug>(coc-rename)
