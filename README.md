@@ -4,7 +4,7 @@
 Hello , this is my personal vim setup , It will be updated frequently based on my needs.
 I will make sure to document every Plugin I add with example of usage case.
 ***
-# Installation
+# Installation 📥
 ### neovim , vim , gvim
 For sure we need vim or neovim installed <br>
 in order to enable clipboard copy-pasting we need vim-gtk or vim-gtk3 <br> <br>
@@ -20,13 +20,13 @@ Also if you don't have python install it then install python support inside vim 
 ```bash
 pip install neovim vim
 ```
-> HINT : make sure that pip refer to python3 else try pip3 instead
+💡 : make sure that pip refer to python3 else try pip3 instead
 
-> TIP : if your not a root user you need to use sudo
+💡 : if your not a root user you need to use sudo
 
-> TIP : to migrate vim to neovim check neovim help page
+💡 : to migrate vim to neovim check neovim help page
 
-> TIP : make sure you use last neovim for better experience
+💡 : make sure you use last neovim for better experience
 
 ### Install OmarKh-vim
 The Installation is aimed only for Linux users. <br>
@@ -36,8 +36,8 @@ git clone "https://github.com/OmarElKhatibCS/OmarKh-vim.git" OmarKh-vim
 cd OmarKh-vim
 sh install.sh
 ```
->TIP : to auto remove Installation files clone it into /tmp folder , 
-> or you can run ``` cd .. && rm -rf OmarKh-vim ```
+💡 : to auto remove Installation files clone it into /tmp folder , 
+ or you can run ``` cd .. && rm -rf OmarKh-vim ```
 
 to have icons enabled you need a font such as NerdFont or FiraCode check this [link](https://github.com/ryanoasis/vim-devicons#installation)  <br>
 ### Install Plugin Manager
@@ -60,9 +60,9 @@ After the installation of the Plugin Manager we need to install Plugins
 vim +PlugInstall
 ```
 or Method 2 : you can launch vim then press ESC on your keyboard then type :PlugInstall and press enter <br>
-> TIP : It's normal if you used Method 2 to get errors first time we open vim because plugins are not Installed yet.
+💡 : It's normal if you used Method 2 to get errors first time we open vim because plugins are not Installed yet.
 
-> TIP : If a Plugin failed during installation press SHIFT+R to retry
+💡 : If a Plugin failed during installation press SHIFT+R to retry
 
 ***
 
@@ -75,7 +75,7 @@ remove the following lines from .vimrc and replace them with what provided in do
         syntax          enable
         colorscheme     pixelmuerto
 ```
-> TIP it's better to keep the comments 
+💡 it's better to keep the comments 
 
 externally installed themes :
 
@@ -91,11 +91,10 @@ externally installed themes :
 ## usefull commands
 |TIP|usage|
 |---| --- |
-| press t in Nerdtree | open file in new tab |
 | :tabn | move to next tab |
 | :tabp | move to previous tab |
 
-## Keys
+## Keys ⌨️
 common used vim keys :
 | key | job | mode |
 | --- | --- | --- |
@@ -135,6 +134,7 @@ common used vim keys :
 | CTRL+p+v | open in vsplit of the file the cursor on | normal |
 | m(key) | ie: mg will save current cursor place to g| normal |
 | \`(key) | ie: \`g will reutnr to saved cursor place in g| normal |
+| t | open file that cursor is on in new tab | nerdtree |
 
 more coming very very soon...
 ## Coc
@@ -149,13 +149,13 @@ first we need go installed , go to [website](https://golang.org/doc/install) and
 after successfully setup go , open vim and press ESC and type :GoInsallBinaries <br>
 watch this [video](https://www.youtube.com/watch?v=7BqJ8dzygtU&t=2885s) for more informations to get most out of vim-go :) <br>
 more about go plugin with maps soon...
-**Go Keys**
+**Go Keys**⌨️
 | key | job | mode |
 | --- | --- | --- |
 | gd | go to definition | normal |
 | ctrl+o | go back from definition | normal |
 
-**HTML Keys**
+**HTML Keys **⌨️
 | key | job | mode |
 | --- | --- | --- |
 | cit | change what is between the tags | normal |
@@ -164,9 +164,9 @@ more about go plugin with maps soon...
 | vit | visual select what is between the tags | normal |
 
 ***
-# Credits
+# Credits 💳
 This project is heavly depended on [awesome vimrc](https://github.com/amix/vimrc/) by [amix](https://github.com/amix/)
-# TODO
+# TODO 📝
 - [ ] docs 
 - [X] better readme
 
