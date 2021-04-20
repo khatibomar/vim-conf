@@ -133,6 +133,9 @@ common used vim keys :
 | CTRL+(h/j/k/l)| move between splits | normal |
 | CTRL+p | open ctrlp plugin for fuzzy finding | normal |
 | CTRL+p+v | open in vsplit of the file the cursor on | normal |
+| m(key) | ie: mg will save current cursor place to g| normal |
+| \`(key) | ie: \`g will reutnr to saved cursor place in g| normal |
+
 more coming very very soon...
 ## Coc
 to read more about coc please go [here](https://github.com/neoclide/coc.nvim) <br>
