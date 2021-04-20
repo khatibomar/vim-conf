@@ -315,8 +315,5 @@
 	autocmd BufEnter *.go nmap <leader>cc  <Plug>(go-callers)
 	" Find all references of a given type/function in the codebase with <leader> + cr:
 	nmap <leader>cr <Plug>(coc-references)
-	" Go to definition/Go back with Ctrl+d and Ctrl+a:
-	nmap <C-a> <C-o>
-	nmap <C-d> <Plug>(coc-definition)
 	" renaming the symbol your cursor is on with <leader> + r:
 	nmap <leader>r <Plug>(coc-rename)
