@@ -84,6 +84,7 @@ externally installed themes :
 | Dracula | [github](https://github.com/dracula/dracula-theme) |
 | Solarized | [github](https://github.com/altercation/vim-colors-solarized) |
 | pixelmuerto | [github](https://github.com/pixelmuerto/vim-pixelmuerto) |
+| synthwave84 | [github](https://github.com/artanikin/vim-synthwave84) |
 
 ***
 
@@ -135,6 +136,15 @@ common used vim keys :
 | m(key) | ie: mg will save current cursor place to g| normal |
 | \`(key) | ie: \`g will reutnr to saved cursor place in g| normal |
 | t | open file that cursor is on in new tab | nerdtree |
+| ,r | will rename all the variables into the new name (good for refactoring) | normal |
+
+**HTML Keys** ⌨️
+| key | job | mode |
+| --- | --- | --- |
+| cit | change what is between the tags | normal |
+| yit | copy what is between the tags | normal |
+| dit | delete what is between the tags | normal |
+| vit | visual select what is between the tags | normal |
 
 more coming very very soon...
 ## Coc
@@ -149,19 +159,23 @@ first we need go installed , go to [website](https://golang.org/doc/install) and
 after successfully setup go , open vim and press ESC and type :GoInsallBinaries <br>
 watch this [video](https://www.youtube.com/watch?v=7BqJ8dzygtU&t=2885s) for more informations to get most out of vim-go :) <br>
 more about go plugin with maps soon...
-**Go Keys**⌨️
+**Go Keys** ⌨️
 | key | job | mode |
 | --- | --- | --- |
-| gd | go to definition | normal |
-| ctrl+o | go back from definition | normal |
+| gd | go to definition that cursor on | normal |
+| gy | go to type definition that cursor on | normal |
+| gi | go to implementation that cursor on | normal |
+| gy | go to type definition that cursor on | normal |
+| ctrl+o | go back from any go to to code | normal |
+| ,t | Run all the tests in the current file | normal |
+| ,tt | Run the test in the current function | normal |
+| ,c | toggle coverage profile in current file | normal |
+| ,ci | show what function head of function that cursor on | normal |
+| ,cii | show type interface , methods and fields of type that cursor on | normal |
+| ,cc | show where function that cursor on is called | normal |
+| ,cr | show all the reference type/function that cursor on in codebase | normal |
 
-**HTML Keys **⌨️
-| key | job | mode |
-| --- | --- | --- |
-| cit | change what is between the tags | normal |
-| yit | copy what is between the tags | normal |
-| dit | delete what is between the tags | normal |
-| vit | visual select what is between the tags | normal |
+💡 Some of them are not go specific but COC specific , so they may run on other languages also
 
 ***
 # Credits 💳
