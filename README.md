@@ -121,17 +121,17 @@ common used vim keys :
 | ,d | duplicate current line | normal |
 | Ctrl-y | move screen up without moving cursor | normal |
 | Ctrl-e | move screen down without moving cursor | normal |
-| ALT+K | move line up | normal |
-| ALT+J | move line down | normal |
-| Ctrl-d | move screen down without moving cursor | normal |
+| ALT-K | move line up | normal |
+| ALT-J | move line down | normal |
+| Ctrl-d | delete current line | normal and insert |
 | cw | change word | normal |
 | ci`key` | change inside key example `ci"` `ci{` | normal |
 | Ctrl-x Ctrl-o | trigger auto completion | insert |
 | % | go to opposite pair of `(` in `(sd)` | normal |
 | ,nt | toggle nerdtree | normal |
-| CTRL+(h/j/k/l)| move between splits | normal |
-| CTRL+p | open ctrlp plugin for fuzzy finding | normal |
-| CTRL+p+v | open in vsplit of the file the cursor on | normal |
+| CTRL-(h/j/k/l)| move between splits | normal |
+| CTRL-p | open ctrlp plugin for fuzzy finding | normal |
+| CTRL-p v | open in vsplit of the file the cursor on | normal |
 | m`key` | ie: mg will save current cursor place to g| normal |
 | \``key` | ie: \`g will reutnr to saved cursor place in g| normal |
 | t | open file that cursor is on in new tab | nerdtree |
