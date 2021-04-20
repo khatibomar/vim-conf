@@ -168,7 +168,11 @@
 	
 	" force vim to syntax highlight gohtml as html
 	au BufReadPost *.gohtml set syntax=html
-
+	
+	" ctrd-d to delete line
+	nmap <C-d> dd
+	imap <C-d> <esc>ddi
+	
 "-----------------"
 " spell checking  "
 "-----------------"
