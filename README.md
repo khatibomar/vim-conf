@@ -84,7 +84,6 @@ externally installed themes :
 | Dracula | [github](https://github.com/dracula/dracula-theme) |
 | Solarized | [github](https://github.com/altercation/vim-colors-solarized) |
 | pixelmuerto | [github](https://github.com/pixelmuerto/vim-pixelmuerto) |
-| synthwave84 | [github](https://github.com/artanikin/vim-synthwave84) |
 
 ***
 
@@ -133,8 +132,8 @@ common used vim keys :
 | CTRL+(h/j/k/l)| move between splits | normal |
 | CTRL+p | open ctrlp plugin for fuzzy finding | normal |
 | CTRL+p+v | open in vsplit of the file the cursor on | normal |
-| m(key) | ie: mg will save current cursor place to g| normal |
-| \`(key) | ie: \`g will reutnr to saved cursor place in g| normal |
+| m`key` | ie: mg will save current cursor place to g| normal |
+| \``key` | ie: \`g will reutnr to saved cursor place in g| normal |
 | t | open file that cursor is on in new tab | nerdtree |
 | ,r | will rename all the variables into the new name (good for refactoring) | normal |
 
