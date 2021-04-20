@@ -250,9 +250,6 @@
 	" Use U to show documentation in preview window
 	nnoremap <silent> U :call <SID>show_documentation()<CR>
 	
-	" Remap for rename current word
-	nmap <leader>rn <Plug>(coc-rename)
-	
 	" Remap for format selected region
 	vmap <leader>f  <Plug>(coc-format-selected)
 	nmap <leader>f  <Plug>(coc-format-selected)
