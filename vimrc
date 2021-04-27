@@ -32,7 +32,10 @@
 		
 		" easly with go using :GoXX (XX is command like :GoBuild)
 		Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-		
+	
+		" generate boilerplate tests for function
+		Plug 'buoto/gotests-vim'
+
 		" Important! used to align text
 		" http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
 		" @ToDo watch the video , and make it easier to use
@@ -318,3 +321,6 @@
 	nmap <leader>cr <Plug>(coc-references)
 	" renaming the symbol your cursor is on with <leader> + r:
 	nmap <leader>r <Plug>(coc-rename)
+	" auto generate boilerplate tests
+	nmap <leader>gt :GoTests<Enter>
+	nmap <leader>gat :GoTestsAll<Enter>

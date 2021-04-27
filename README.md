@@ -66,6 +66,11 @@ or Method 2 : you can launch vim then press ESC on your keyboard then type :Plug
 
 ***
 
+[GoTests-vim](https://github.com/buoto/gotests-vim) Plugin need [GoTests](https://github.com/cweill/gotests) binary , Install it using
+```bash
+go get github.com/cweill/gotests/...
+```
+
 # Themes
 this vim configuation came with a default theme <br>
 But I have couple of other themes installed <br>
@@ -173,6 +178,9 @@ more about go plugin with maps soon...
 | ,cii | show type interface , methods and fields of type that cursor on | normal |
 | ,cc | show where function that cursor on is called | normal |
 | ,cr | show all the reference type/function that cursor on in codebase | normal |
+| ,gt | generate test boilorplate for function that cursor on in codebase | normal |
+| ,gat | generate test boilorplate for all functions in current buffer| normal |
+
 
 💡 Some of them are not go specific but COC specific , so they may run on other languages also
 
