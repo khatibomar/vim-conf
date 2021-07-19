@@ -64,6 +64,19 @@ or Method 2 : you can launch vim then press ESC on your keyboard then type :Plug
 
 💡 : If a Plugin failed during installation press SHIFT+R to retry
 
+inside vim press `ESC` then type `:CocConfig` and paste this inside the file opened to get autocomplete for go <br>
+```json
+{
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    }
+  }
+}
+```
+
 ***
 
 [GoTests-vim](https://github.com/buoto/gotests-vim) Plugin need [GoTests](https://github.com/cweill/gotests) binary , Install it using
@@ -73,23 +86,14 @@ go get github.com/cweill/gotests/...
 
 # Themes
 this vim configuation came with a default theme <br>
-But I have couple of other themes installed <br>
+But I have couple of other themes installed (check them in vimrc file in themes section) <br>
 remove the following lines from .vimrc and replace them with what provided in docs of each theme
 ```vim
 " Theme section
         syntax          enable
-        colorscheme     pixelmuerto
+        colorscheme     ......
 ```
 💡 it's better to keep the comments 
-
-externally installed themes :
-
-| Name | Docs link |
-| --- | --- |
-| Dracula | [github](https://github.com/dracula/dracula-theme) |
-| Solarized | [github](https://github.com/altercation/vim-colors-solarized) |
-| pixelmuerto | [github](https://github.com/pixelmuerto/vim-pixelmuerto) |
-
 ***
 
 # Docs
