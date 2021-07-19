@@ -63,6 +63,7 @@
 		Plug 'dracula/vim', { 'as': 'dracula' }
 		Plug 'altercation/vim-colors-solarized'
 		Plug 'juanpabloaj/vim-pixelmuerto'
+		Plug 'yasukotelin/notelight'
 		" end themes
 		
 		" Initialize plugin system
@@ -205,7 +206,7 @@
 
 	" Theme section
 		syntax		enable
-		colorscheme pixelmuerto
+		colorscheme notelight 
 		let g:solarized_termcolors=256 " used for solorized theme
 	" Nerdtree configuration goes here
 		" open Nerdtree
