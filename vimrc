@@ -145,11 +145,12 @@
 "-----------------"
 " text editing    "
 "-----------------"
-	" Move a line of text using ALT+[jk] 
-		nmap <M-j> mz:m+<cr>`z
-		nmap <M-k> mz:m-2<cr>`z
-		vmap <M-j> :m'>+<cr>`<my`>mzgv`yo`z
-		vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z	
+	" Move lines using ALT+[jk] 
+		nnoremap <A-k> :m .-2<CR>==
+		inoremap <A-j> <Esc>:m .+1<CR>==gi
+		inoremap <A-k> <Esc>:m .-2<CR>==gi
+		vnoremap <A-j> :m '>+1<CR>gv=gv
+		vnoremap <A-k> :m '<-2<CR>gv=gv
 	" Delete trailing white space on save, useful for some filetypes ;)
 		fun! CleanExtraSpaces()
 		    let save_cursor = getpos(".")
