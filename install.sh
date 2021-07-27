@@ -5,6 +5,10 @@ cat << EOF
 
 EOF
 
+if [ ! -d $HOME/.config/nvim_backup ]; then
+	mkdir  $HOME/.config/nvim_backup
+fi
+
 echo "[+] INSTALLATION START [+]"
 echo "check for BACKUP : "
 if [ -f "$HOME/.vimrc" ]; then
@@ -14,10 +18,15 @@ fi
 
 if [ -f "$HOME/.config/nvim/init.vim" ]; then
 	echo "nvim will be backup to nvim_backup"
-	mv -f $HOME/.config/nvim/ $HOME/.config/nvim_backup
-	mkdir $HOME/.config/nvim
+	mv -f $HOME/.config/nvim/init.vim $HOME/.config/nvim_backup/init.vim
+fi
+
+if [ -f "$HOME/.config/nvim/coc-setting.json" ]; then
+	echo "backuping coc-settings..."
+	mv -f $HOME/.config/nvim/coc-setting.json $HOME/.config/nvim_backup
 fi
 
 cp vimrc $HOME/.vimrc
 cp init.vim $HOME/.config/nvim/init.vim
+cp coc-setting.json $HOME/.config/nvim/coc-setting.json
 echo "[+] INSTALLATION DONE [+]"
