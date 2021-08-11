@@ -23,10 +23,10 @@ fi
 
 if [ -f "$HOME/.config/nvim/coc-setting.json" ]; then
 	echo "backuping coc-settings..."
-	mv -f $HOME/.config/nvim/coc-setting.json $HOME/.config/nvim_backup
+	mv -f $HOME/.config/nvim/coc-settings.json $HOME/.config/nvim_backup
 fi
 
 cp vimrc $HOME/.vimrc
 cp init.vim $HOME/.config/nvim/init.vim
-cp coc-setting.json $HOME/.config/nvim/coc-setting.json
+cp coc-settings.json $HOME/.config/nvim/coc-settings.json
 echo "[+] INSTALLATION DONE [+]"
