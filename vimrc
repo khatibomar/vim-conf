@@ -64,6 +64,8 @@
 		Plug 'altercation/vim-colors-solarized'
 		Plug 'juanpabloaj/vim-pixelmuerto'
 		Plug 'yasukotelin/notelight'
+		Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+		Plug 'shaunsingh/moonlight.nvim'
 		" end themes
 		
 		" Initialize plugin system
